@@ -8,6 +8,6 @@ export class FromUnixPipe implements PipeTransform {
     if (typeof value === 'string') {
       value = +value;
     }
-    return dayjs(value).unix();
+    return dayjs.unix(value);
   }
 }

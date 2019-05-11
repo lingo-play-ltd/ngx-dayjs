@@ -2,6 +2,7 @@
   "name": "ngx-dayjs",
   "version": "1.0.0",
   "description": "dayjs pipes for Angular",
+  "main": "bundles/ngx-dayjs.umd.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ljmerza/ngx-dayjs.git"
@@ -59,7 +60,6 @@
     ],
     "testRegex": "\\.spec\\.ts$"
   },
-  "main": "bundles/ngx-dayjs.umd.js",
   "module": "esm5/ngx-dayjs.js",
   "es2015": "esm2015/ngx-dayjs.js",
   "typings": "ngx-dayjs.d.ts",

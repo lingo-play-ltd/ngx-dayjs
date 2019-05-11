@@ -84,7 +84,7 @@ class FromUnixPipe {
         if (typeof value === 'string') {
             value = +value;
         }
-        return dayjs$3(value).unix();
+        return dayjs$3.unix(value);
     }
 }
 FromUnixPipe.decorators = [

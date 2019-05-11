@@ -64,7 +64,7 @@ var FromUnixPipe = /** @class */ (function () {
         if (typeof value === 'string') {
             value = +value;
         }
-        return dayjs$3(value).unix();
+        return dayjs$3.unix(value);
     };
     return FromUnixPipe;
 }());
