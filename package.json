@@ -2,6 +2,7 @@
   "name": "ngx-dayjs",
   "version": "1.0.0",
   "description": "dayjs pipes for Angular",
+  "main": "dist/ngx-dayjs/bundles/ngx-dayjs.umd.js",
   "scripts": {
     "build": "ng build",
     "test": "ng lint && jest",
