@@ -18,12 +18,9 @@
   },
   "homepage": "https://github.com/ljmerza/ngx-dayjs#readme",
   "peerDependencies": {
-    "@angular/common": ">=2.0.0 <7.0.0",
-    "@angular/core": ">=2.0.0 <7.0.0"
-  },
-  "dependencies": {
-    "dayjs": "^1.5.15",
-    "tslib": "^1.9.0"
+    "@angular/common": ">=6.0.0",
+    "@angular/core": ">=6.0.0",
+    "dayjs": "^1.8.14"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.11.2",
@@ -37,6 +34,7 @@
     "@angular/platform-browser": "~7.0.1",
     "@types/jest": "^23.3.9",
     "core-js": "^2.5.4",
+    "dayjs": "^1.8.14",
     "jest": "^23.6.0",
     "ng-packagr": "^4.4.0",
     "rxjs": "^6.3.3",
@@ -68,5 +66,8 @@
   "fesm2015": "fesm2015/ngx-dayjs.js",
   "typings": "ngx-dayjs.d.ts",
   "metadata": "ngx-dayjs.metadata.json",
-  "sideEffects": false
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
 }
